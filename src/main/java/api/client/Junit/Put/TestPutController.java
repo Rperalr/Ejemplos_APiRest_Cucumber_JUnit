@@ -11,8 +11,8 @@ public class TestPutController {
 
         PutController client = new PutController();
 
-        int userId = 1;
-        String newName = "Juan Pérez";
+        int userId = 18;
+        String newName = "Roberto Peralta";
         Response response = client.updateUser(userId, newName);
 
         // Verifica que el código de respuesta sea 200
