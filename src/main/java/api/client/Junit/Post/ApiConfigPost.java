@@ -19,7 +19,6 @@ public class ApiConfigPost {
         RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
     }
 
-
     public static void PostNewResource(){
 
         String requestBody = payload;

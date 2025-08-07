@@ -25,7 +25,7 @@ public class PostApiTestSteps {
 
     @Before
     public void setup() {
-
+        ApiConfigPost.setup();
     }
 
     @Given("que la API está disponible")
