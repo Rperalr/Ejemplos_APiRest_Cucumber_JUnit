@@ -23,14 +23,10 @@ public class PostApiTestSteps {
         }
     """;
 
-    @Before
-    public void setup() {
-        ApiConfigPost.setup();
-    }
-
     @Given("que la API está disponible")
     public void apiDisponible() {
         // Se asume que la API está disponible
+        ApiConfigPost.setup();
     }
 
     @When("envío una solicitud POST con datos válidos")
