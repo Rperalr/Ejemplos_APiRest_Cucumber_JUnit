@@ -19,6 +19,7 @@ public class TestDeleteController {
         // Verifica que el código de respuesta sea 200
         assertEquals(200, response.getStatusCode());
         System.out.println(response.getStatusCode());
+        System.out.println(response.getBody().asString());
 
     }
 }
